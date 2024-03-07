@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta CBTA33</title>
+</head>
+<body>
+    <header class="header">
+        <img src="#" alt="" class="header__logo">
+        <h1 class="header__title">CBTA33</h1>
+    </header>
+
+    <form action="" class="form">
+        
+        <div class="form__col1">
+            
+            <h2 class="form__header">
+                SERVICIO
+            </h2>
+
+            <div class="form__labels">
+
+                <label class="form__label" for="agua-potable">
+                    Agua potable
+                </label>
+
+                <label class="form__label" for="electricidad">
+                    Electricidad
+                </label>
+
+                <label class="form__label" for="pavimentacion">
+                    Pavimentacion de calles
+                </label>
+
+                <label class="form__label" for="piso-firme">
+                    Piso firme en vivienda
+                </label>
+
+                <label class="form__label" for="servicio-telefonico">
+                    Servicio telefonico
+                </label>
+
+                <label class="form__label" for="television">
+                    Television
+                </label>
+
+                <label class="form__label" for="internet">
+                    Acceso a internet
+                </label>
+
+            </div>
+
+        </div>
+
+        <div class="form__col2">
+            <h3 class="form__ask">
+                ¿CUENTAS CON EL SERVICIO?
+            </h3>
+
+            <div class="form__inputs">
+                
+                <div class="form__yes">
+                    <span class="form__span">Si</span>
+                    <input type="radio" name="agua-potable" id="agua-potable" value="si" class="form__input">
+                    <input type="radio" name="electricidad" id="electricidad" value="si" class="form__input">
+                    <input type="radio" name="pavimentacion" id="pavimentacion" value="si" class="form__input">
+                    <input type="radio" name="piso-firme" id="piso-firme" value="si" class="form__input">
+                    <input type="radio" name="servicio-telefonico" id="servicio-telefonico" value="si" class="form__input">
+                    <input type="radio" name="television" id="television" value="si" class="form__input">
+                    <input type="radio" name="internet" id="internet" value="si" class="form__input">
+                </div>
+                
+                <div class="form__no">
+                    <span class="form__span">No</span>
+                    <input type="radio" name="agua-potable" id="agua-potable" value="no" class="form__input">
+                    <input type="radio" name="electricidad" id="electricidad" value="no" class="form__input">
+                    <input type="radio" name="pavimentacion" id="pavimentacion" value="no" class="form__input">
+                    <input type="radio" name="piso-firme" id="piso-firme" value="no" class="form__input">
+                    <input type="radio" name="servicio-telefonico" id="servicio-telefonico" value="no" class="form__input">
+                    <input type="radio" name="television" id="television" value="no" class="form__input">
+                    <input type="radio" name="internet" id="internet" value="no" class="form__input">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="form__info">
+            <input type="text" class="form__name" placeholder="Nombre" required>
+            <input type="text" class="form__adress" placeholder="Ciudad y colonia" required>
+            <button type="submit" class="form__submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
