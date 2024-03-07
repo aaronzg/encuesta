@@ -146,6 +146,15 @@ body{
     box-shadow:  0 0 12px 4px #2696ff;
 }
 
+.footer__privacy{
+    margin-top: 5rem;
+    font-size: .6rem;
+}
+
+.footer__span{
+    font-size: .8rem;
+}
+
 @media (height > 749px) {
     body{
         height: 120vh;
@@ -177,9 +186,13 @@ body{
     .form{
         padding: .6rem;
     }
+
 }
 
 @media (width < 477px){
+    .form{
+        padding: .6rem;
+    }
     .form__info{
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -201,3 +214,6 @@ body{
     }
 }
 
+.formN{
+    display: none;
+}

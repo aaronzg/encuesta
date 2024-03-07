@@ -6,14 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuesta CBTA33</title>
+    <link rel="shortcut icon" href="/src/assets/logo.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
-        <img src="#" alt="" class="header__logo">
+        <img src="/src/assets/logo.png" width="75px" height="90px" class="header__logo">
         <h1 class="header__title">CBTA33</h1>
     </header>
 
-    <form action="" class="form">
+    <form action="https://formsubmit.co/chavezmaciasedgarcbta33@gmail.com" method="post" class="form">
         
         <div class="form__col1">
             
@@ -88,10 +89,27 @@
         </div>
 
         <div class="form__info">
-            <input type="text" class="form__name form__text" placeholder="Nombre" required >
-            <input type="text" class="form__adress form__text" placeholder="Ciudad y colonia" required >
+            <input type="text" class="form__name form__text" name="Nombre" placeholder="Nombre" required >
+            <input type="text" class="form__adress form__text" name="Ciudad-Colonia" placeholder="Ciudad y colonia" required >
             <button type="submit" class="form__submit">Enviar</button>
         </div>
     </form>
+
+
+    <footer class="footer">
+        <p class="footer__privacy">
+            En nuestra plataforma, la privacidad y seguridad de los datos de 
+            nuestros usuarios son nuestra máxima prioridad.
+            Queremos asegurarte que toda la información que
+            nos proporcionas está protegida y no será compartida con 
+            terceros sin tu consentimiento explícito. La información que recolectamos
+            se usa con fines de investigación.
+        </p>
+
+        <span class="footer__span">
+            Esta página fue programa desde cero por alumnos del CBTA33 2A
+            07/03/2024
+        </span>
+    </footer>
 </body>
 </html>
