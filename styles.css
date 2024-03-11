@@ -21,6 +21,30 @@ body{
     justify-content: center;
 }
 
+.header__title{
+    transform: translateX(200px);
+    opacity: 0;
+    animation-name: startHeader;
+    animation-duration: .6s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+.header__logo{
+    transform: translateX(200px);
+    opacity: 0;
+    animation-name: startHeader;
+    animation-duration: .6s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes startHeader {
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 .form{
     background-color: #e1e1e1c9;
     border-radius: 1rem;
@@ -33,6 +57,20 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
     gap: .8rem;
+
+     opacity: 0;
+    transform: translateY(300px);
+    animation-name: startAnimation;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes startAnimation {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .form__col1{
@@ -132,7 +170,7 @@ body{
     text-align: center;
     border-radius: .6rem;
     padding: .4rem 0;
-
+    width: 98%;
     align-self: center;
 }
 
